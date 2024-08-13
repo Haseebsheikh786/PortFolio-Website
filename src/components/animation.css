@@ -1,0 +1,19 @@
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateZ(0px);
+  }
+  }
+  
+  .animate__fadeInUp {
+    animation-name: fadeInUp 
+  }
+  
+  .animate__animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+  }
