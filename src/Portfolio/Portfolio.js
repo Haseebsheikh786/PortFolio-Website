@@ -9,14 +9,16 @@ import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 export default function Portfolio() {
   const [open, setOpen] = React.useState(false);
+  const [openCode, setOpenCode] = React.useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
+  const toggleDemo = () => {
+    setOpen(!open);
   };
 
-  const handleClose = () => {
-    setOpen(false);
+  const toggleCode = () => {
+    setOpenCode(!openCode);
   };
+
   const content = Projects.map((item) => {
     return (
       <div
@@ -33,9 +35,32 @@ export default function Portfolio() {
         </div>
         <hr />
         <div className={classes.action}>
-          <a href={item.code} target="_blank">
-            Code
-          </a>
+          {item.code ? (
+            <a href={item.code} target="_blank">
+              Code
+            </a>
+          ) : (
+            <React.Fragment>
+              <a onClick={toggleCode}>Code</a>
+              <Dialog
+                open={openCode}
+                onClose={toggleCode}
+                aria-labelledby="alert-dialog-title"
+                aria-describedby="alert-dialog-description"
+              >
+                <DialogContent>
+                  <DialogContentText id="alert-dialog-description">
+                    Code is not available for privacy reasons.
+                  </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                  <Button onClick={toggleCode} autoFocus>
+                    ok{" "}
+                  </Button>
+                </DialogActions>
+              </Dialog>
+            </React.Fragment>
+          )}
           {item.demo ? (
             item.demo === "portfolio" ? null : (
               <a href={item.demo} target="_blank">
@@ -44,20 +69,20 @@ export default function Portfolio() {
             )
           ) : (
             <React.Fragment>
-              <a onClick={handleClickOpen}>Demo</a>
+              <a onClick={toggleDemo}>Demo</a>
               <Dialog
                 open={open}
-                onClose={handleClose}
+                onClose={toggleDemo}
                 aria-labelledby="alert-dialog-title"
                 aria-describedby="alert-dialog-description"
               >
                 <DialogContent>
                   <DialogContentText id="alert-dialog-description">
-                    Not yet deployed{" "}
+                    Not yet  deployed{" "}
                   </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                  <Button onClick={handleClose} autoFocus>
+                  <Button onClick={toggleDemo} autoFocus>
                     ok{" "}
                   </Button>
                 </DialogActions>

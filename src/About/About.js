@@ -21,18 +21,18 @@ export default function About() {
           <p
             className={`${classes.animate__fadeInUp} ${classes.animate__animated}`}
           >
-            Dynamic and dedicated Web Developer with one plus year of industry
-            experience, including six months as a MERN Stack Developer at
-            NextPak Agile Solutions. Currently, I am expanding my expertise at
-            Devikons, working with both Vue.js and Laravel alongside MERN
-            technologies. I excel in creating responsive web applications and am
-            driven by a passion for integrating new technologies to drive
-            innovation. My comprehensive hands-on experience enables me to
-            understand the intricate details of building robust software
-            solutions. I am committed to continuous learning and stay updated
-            with the latest trends in the ever-evolving field of web
-            development. Let's collaborate to create state-of-the-art solutions
-            together!
+            I’m a passionate and dynamic Web Developer with 1.5 years of
+            industry experience. My journey includes six months as a MERN Stack
+            Developer at NextPak Agile Solutions, and I’m currently honing my
+            skills at Devikons, where I work with both Vue.js and Laravel,
+            alongside MERN technologies. I specialize in building responsive web
+            applications and thrive on the challenge of integrating new
+            technologies to push the boundaries of innovation. My hands-on
+            experience equips me with a deep understanding of the complexities
+            involved in creating robust software solutions. I’m dedicated to
+            continuous learning and always stay updated with the latest trends
+            in the ever-evolving world of web development. Let’s connect and
+            create cutting-edge solutions together!
           </p>
         </div>
       </div>

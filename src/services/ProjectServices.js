@@ -4,47 +4,63 @@ export const Projects = [
   {
     id: nanoid(),
     img: "/assets/projects/portfolio.png",
-    title: "Portfolio",
+    title: "Portfolio Website",
     descrition:
-      "My portfolio, the site you are currently navigating, giving you an overview of me and my skills",
+      "My portfolio, the site you’re browsing, offers a detailed view of my skills and achievements. It highlights my projects and provides an overview of my professional expertise.",
     tags: ["React JS", "Html", "CSS"],
-    code: "https://github.com/Haseebsheikh786/My-PortFolio",
+    code: "https://github.com/Haseebsheikh786/PortFolio-Website",
     demo: "portfolio",
   },
   {
     id: nanoid(),
     img: "/assets/projects/ecommerce.png",
-    title: "Ecommerce App",
+    title: "E-commerce Platform",
     descrition:
-      "Developed a fully functional e-commerce site, including user authentication, product catalog, cart and order product functionality.",
+      "Built a complete e-commerce site with user authentication, product catalog, shopping cart, order processing, admin panel, and integrated chat functionality.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
-    demo: "https://ecommerce-project-app.vercel.app/",
-    code: "https://github.com/Haseebsheikh786/Ecommerce-APP",
+    demo: " https://e-shop-sandy.vercel.app/",
+    code: "https://github.com/Haseebsheikh786/Mern-Stack-Ecommerce-Project",
   },
   {
     id: nanoid(),
     img: "/assets/image.png",
-    title: "Booking App",
+    title: "Alojate Booking System",
     descrition:
-      "Created a comprehensive booking website for a client, featuring scheduling, user management, and admin controls.",
+      "Developed a robust booking website for a client, featuring scheduling, user management, admin controls, chat functionality, calendar integration, image cropping, and advanced features like Channex API integration.",
     tags: ["Vue JS", "Laravel", "MYSQL"],
     demo: "https://newmerchant.alojate.pro/merchant",
-    code: "/",
   },
   {
     id: nanoid(),
-    img: "/assets/projects/restaurent.png",
-    title: "Restaurant App",
+    img: "/assets/projects/fhp.jpg",
+    title: "Fans Helps Players",
     descrition:
-      "Developed a fully functional restaurant site, including order food, reserve table and admin functionality.",
+      "Building 'Fans Help Players,' a multi-site platform where fans can support athletes by chatting, purchasing merchandise, and making direct contributions. The project includes portals for admins, fans, and athletes, and is designed to enhance athlete-fan interactions. Currently under development.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
-    demo: "https://restaurant-app-pi-peach.vercel.app/",
-    code: "https://github.com/Haseebsheikh786/Restaurant-APP",
+  },
+  {
+    id: nanoid(),
+    img: "/assets/projects/laravelCrud.png",
+    title: "Laravel CRUD Application",
+    descrition:
+      "Created a Laravel CRUD application with user authentication, utilizing MySQL for database management. Includes features for creating, reading, updating, and deleting records with secure user login and registration.",
+    tags: ["Laravel", "MySQL"],
+    code: "https://github.com/Haseebsheikh786/laravel-crud-project",
+  },
+  {
+    id: nanoid(),
+    img: "/assets/projects/company.png",
+    title: "Software Company Website",
+    descrition:
+      "Built a fully animated website for a software company, featuring sections for services, portfolio, about us, and contact. The site uses engaging animations to highlight the company's expertise and projects.",
+    tags: ["React JS", "Html", "CSS", "Bootstrap"],
+    code: "https://github.com/Haseebsheikh786/Animated-Software-Company-Webiste",
+    demo: "https://h-web-dynamic.vercel.app",
   },
   {
     id: nanoid(),
     img: "/assets/projects/chat.png",
-    title: "Real-time Chat App",
+    title: "Real-time Chat Application",
     descrition:
       "Developed a fully functional and responsive site, including user authentication and real time chat functionality.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
@@ -54,49 +70,40 @@ export const Projects = [
   {
     id: nanoid(),
     img: "/assets/projects/youtube.png",
-    title: "Youtube Clone",
+    title: "YouTube Clone",
     descrition:
-      "Developed a  youtube clone, including upload video / post , watch videos , subscribe ,  like , Comment , user profile page and user can also see a  list of his liked videos functionality.",
+      "Developed a YouTube clone featuring video uploads, video playback, subscriptions, likes, comments, user profiles, and a personalized list of liked videos.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     code: "https://github.com/Haseebsheikh786/Youtube-Clone-using-MERN-Stack",
-  },
-  {
-    id: nanoid(),
-    img: "/assets/projects/blog.png",
-    title: "Blog App",
-    descrition:
-      "Developed a blog site, including add , delete and update blog or comments functionality.",
-    tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
-    demo: "https://blog-project-phi-dun.vercel.app/",
-    code: "https://github.com/Haseebsheikh786/BLOG-APP",
   },
 
   {
     id: nanoid(),
-    img: "/assets/projects/socialMedia.png",
-    title: "Social Media App",
+    img: "/assets/projects/firebase.png",
+    title: "React Firebase To-Do App",
     descrition:
-      "Developed a Social Media site, including Like , Comment , Post, add friend and chat with friends functionality.",
+      "Built a simple To-Do application using React and Firebase, featuring task creation, completion, and deletion with real-time updates and secure cloud storage.",
+    tags: ["React JS", "Redux", "Firebase"],
+    code: "https://github.com/Haseebsheikh786/firebase-project",
+  },
+  {
+    id: nanoid(),
+    img: "/assets/projects/socialMedia.png",
+    title: "Social Media Platform",
+    descrition:
+      "Developed a social media site with features for liking, commenting, posting, adding friends, and chatting with friends.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     code: "https://github.com/Haseebsheikh786/Social-Media-APP",
   },
+
   {
     id: nanoid(),
-    img: "/assets/projects/chatGPT.png",
-    title: "ChatGPT Clone",
+    img: "/assets/projects/blog.png",
+    title: "Blog Management System",
     descrition:
-      "Developed a real-time ChatGPT clone enabling users to engage in dynamic conversations with AI; designed with a no-save feature for privacy, ensuring sessions conclude on page refresh.",
-    tags: ["React JS", "Express JS", "Node JS"],
-    code: "https://github.com/Haseebsheikh786/ChatGPT-Clone",
-  },
-  {
-    id: nanoid(),
-    img: "/assets/projects/Auth.png",
-    title: " Advanced Auth System ",
-    descrition:
-      "Developed a advanced auth system using Mern Stack. it has include email verification, reset password, sign up , sign in , sign out and also store and refresh jwt token in cookies. i used nodemailer for emails.",
+      "Developed a blog site with functionality to add, delete, and update blogs and comments.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
-    code: "https://github.com/Haseebsheikh786/MERN-Stack-Advanced-Authentication-Authorization",
-    demo: "https://advance-auth-verification.vercel.app/",
+    demo: " https://blog-blue-rho-17.vercel.app/",
+    code: "https://github.com/Haseebsheikh786/BLOG-APP",
   },
 ];
