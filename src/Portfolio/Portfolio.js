@@ -3,22 +3,7 @@ import classes from "./Portfolio.module.css";
 import { Projects } from "../services/ProjectServices";
 import { nanoid } from "nanoid";
 import { Button } from "@mui/material";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
 export default function Portfolio() {
-  const [open, setOpen] = React.useState(false);
-  const [openCode, setOpenCode] = React.useState(false);
-
-  const toggleDemo = () => {
-    setOpen(!open);
-  };
-
-  const toggleCode = () => {
-    setOpenCode(!openCode);
-  };
-
   const content = Projects.map((item) => {
     return (
       <div
@@ -35,60 +20,12 @@ export default function Portfolio() {
         </div>
         <hr />
         <div className={classes.action}>
-          {item.code ? (
-            <a href={item.code} target="_blank">
-              Code
-            </a>
-          ) : (
-            <React.Fragment>
-              <a onClick={toggleCode}>Code</a>
-              <Dialog
-                open={openCode}
-                onClose={toggleCode}
-                aria-labelledby="alert-dialog-title"
-                aria-describedby="alert-dialog-description"
-              >
-                <DialogContent>
-                  <DialogContentText id="alert-dialog-description">
-                    Code is not available for privacy reasons.
-                  </DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                  <Button onClick={toggleCode} autoFocus>
-                    ok{" "}
-                  </Button>
-                </DialogActions>
-              </Dialog>
-            </React.Fragment>
-          )}
-          {item.demo ? (
-            item.demo === "portfolio" ? null : (
-              <a href={item.demo} target="_blank">
-                Demo
-              </a>
-            )
-          ) : (
-            <React.Fragment>
-              <a onClick={toggleDemo}>Demo</a>
-              <Dialog
-                open={open}
-                onClose={toggleDemo}
-                aria-labelledby="alert-dialog-title"
-                aria-describedby="alert-dialog-description"
-              >
-                <DialogContent>
-                  <DialogContentText id="alert-dialog-description">
-                    Not yet  deployed{" "}
-                  </DialogContentText>
-                </DialogContent>
-                <DialogActions>
-                  <Button onClick={toggleDemo} autoFocus>
-                    ok{" "}
-                  </Button>
-                </DialogActions>
-              </Dialog>
-            </React.Fragment>
-          )}
+          <a href={item.code} target="_blank">
+            Code
+          </a>
+          <a href={item.demo} target="_blank">
+            Demo
+          </a>
         </div>
       </div>
     );

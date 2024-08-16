@@ -6,17 +6,16 @@ export const Projects = [
     img: "/assets/projects/portfolio.png",
     title: "Portfolio Website",
     descrition:
-      "My portfolio, the site you’re browsing, offers a detailed view of my skills and achievements. It highlights my projects and provides an overview of my professional expertise.",
+      "My portfolio site showcases my professional journey, highlighting my skills and achievements. It offers a comprehensive view of my projects, emphasizing my expertise in web development. The site is optimized for smooth navigation across all devices.",
     tags: ["React JS", "Html", "CSS"],
     code: "https://github.com/Haseebsheikh786/PortFolio-Website",
-    demo: "portfolio",
   },
   {
     id: nanoid(),
     img: "/assets/projects/ecommerce.png",
     title: "E-commerce Platform",
     descrition:
-      "Built a complete e-commerce site with user authentication, product catalog, shopping cart, order processing, admin panel, and integrated chat functionality.",
+      "Developed a full-featured and responsive ecommerce platform with user authentication, a product catalog, and a secure shopping cart. The platform also includes an admin panel and real-time chat support. Designed for easy accessibility and efficient transactions.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     demo: " https://e-shop-sandy.vercel.app/",
     code: "https://github.com/Haseebsheikh786/Mern-Stack-Ecommerce-Project",
@@ -26,24 +25,24 @@ export const Projects = [
     img: "/assets/image.png",
     title: "Alojate Booking System",
     descrition:
-      "Developed a robust booking website for a client, featuring scheduling, user management, admin controls, chat functionality, calendar integration, image cropping, and advanced features like Channex API integration.",
-    tags: ["Vue JS", "Laravel", "MYSQL"],
+      "Built an advanced platform for merchants to manage bookings across channels like Airbnb and Booking.com. Integrated with Channex API for seamless sync, it includes property management, expense tracking, calendar integration, image cropping, and more.",
+    tags: ["Vue JS", "Shadcn", "Laravel", "MYSQL"],
     demo: "https://newmerchant.alojate.pro/merchant",
   },
   {
     id: nanoid(),
     img: "/assets/projects/fhp.jpg",
-    title: "Fans Helps Players",
+    title: "Fans Help Players",
     descrition:
-      "Building 'Fans Help Players,' a multi-site platform where fans can support athletes by chatting, purchasing merchandise, and making direct contributions. The project includes portals for admins, fans, and athletes, and is designed to enhance athlete-fan interactions. Currently under development.",
-    tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
+      "Building 'Fans Help Players,' a multi-site platform where fans support athletes through chat, merchandise, and direct contributions. The project includes portals for admins, fans, and athletes, enhancing athlete-fan interactions.",
+    tags: ["React JS", "Firebase", "Node JS"],
   },
   {
     id: nanoid(),
     img: "/assets/projects/laravelCrud.png",
     title: "Laravel CRUD Application",
     descrition:
-      "Created a Laravel CRUD application with user authentication, utilizing MySQL for database management. Includes features for creating, reading, updating, and deleting records with secure user login and registration.",
+      "Built a Laravel application with CRUD operations and user authentication. The project includes secure login, data management, and seamless record updates. Emphasis on maintaining data integrity and ease of use.",
     tags: ["Laravel", "MySQL"],
     code: "https://github.com/Haseebsheikh786/laravel-crud-project",
   },
@@ -52,7 +51,7 @@ export const Projects = [
     img: "/assets/projects/company.png",
     title: "Software Company Website",
     descrition:
-      "Built a fully animated website for a software company, featuring sections for services, portfolio, about us, and contact. The site uses engaging animations to highlight the company's expertise and projects.",
+      "Created a dynamic, fully animated website for a software company. The site features sections for services, portfolio, and contact information, using engaging animations to highlight the company's strengths and offerings.",
     tags: ["React JS", "Html", "CSS", "Bootstrap"],
     code: "https://github.com/Haseebsheikh786/Animated-Software-Company-Webiste",
     demo: "https://h-web-dynamic.vercel.app",
@@ -62,7 +61,7 @@ export const Projects = [
     img: "/assets/projects/chat.png",
     title: "Real-time Chat Application",
     descrition:
-      "Developed a fully functional and responsive site, including user authentication and real time chat functionality.",
+      "Developed a fully functional real-time chat application with secure user authentication. The application supports instant messaging, and is designed to handle multiple users simultaneously with efficient performance.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     demo: "https://chat-app-hn41.vercel.app/",
     code: "https://github.com/Haseebsheikh786/Chat-App",
@@ -72,7 +71,7 @@ export const Projects = [
     img: "/assets/projects/youtube.png",
     title: "YouTube Clone",
     descrition:
-      "Developed a YouTube clone featuring video uploads, video playback, subscriptions, likes, comments, user profiles, and a personalized list of liked videos.",
+      "Created a YouTube clone with features like video uploads, playback, subscriptions, and user interactions. The platform also includes personalized profiles and content management. Built to replicate the functionalities of YouTube.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     code: "https://github.com/Haseebsheikh786/Youtube-Clone-using-MERN-Stack",
   },
@@ -82,7 +81,7 @@ export const Projects = [
     img: "/assets/projects/firebase.png",
     title: "React Firebase To-Do App",
     descrition:
-      "Built a simple To-Do application using React and Firebase, featuring task creation, completion, and deletion with real-time updates and secure cloud storage.",
+      "Built a straightforward To-Do app using React and Firebase, with features for creating, completing, and deleting tasks. The app provides real-time updates and leverages cloud storage for secure data management.",
     tags: ["React JS", "Redux", "Firebase"],
     code: "https://github.com/Haseebsheikh786/firebase-project",
   },
@@ -91,7 +90,7 @@ export const Projects = [
     img: "/assets/projects/socialMedia.png",
     title: "Social Media Platform",
     descrition:
-      "Developed a social media site with features for liking, commenting, posting, adding friends, and chatting with friends.",
+      "Developed a social media platform that supports user interactions like posting, liking, and commenting. Features also include friend requests and real-time chat. The site is designed to foster community engagement and user interaction.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     code: "https://github.com/Haseebsheikh786/Social-Media-APP",
   },
@@ -101,7 +100,7 @@ export const Projects = [
     img: "/assets/projects/blog.png",
     title: "Blog Management System",
     descrition:
-      "Developed a blog site with functionality to add, delete, and update blogs and comments.",
+      "Created a blog management system with features for adding, editing, and deleting blogs and comments. The platform is built for efficient content management and is structured to support a variety of blog formats.",
     tags: ["React JS", "Express JS", "Node JS", "Mongo DB"],
     demo: " https://blog-blue-rho-17.vercel.app/",
     code: "https://github.com/Haseebsheikh786/BLOG-APP",
