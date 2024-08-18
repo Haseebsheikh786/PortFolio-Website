@@ -122,5 +122,6 @@
     }
     .item{
         padding-bottom: .5rem;
+        margin: 2rem 0;
     }
 }
