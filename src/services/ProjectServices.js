@@ -22,12 +22,11 @@ export const Projects = [
   },
   {
     id: nanoid(),
-    img: "/assets/image.png",
+    img: "/assets/projects/image.png",
     title: "Alojate Booking System",
     descrition:
       "Built an advanced platform for merchants to manage bookings across channels like Airbnb and Booking.com. Integrated with Channex API for seamless sync, it includes property management, expense tracking, calendar integration, image cropping, and more.",
     tags: ["Vue JS", "Shadcn", "Laravel", "MYSQL"],
-    demo: "https://newmerchant.alojate.pro/merchant",
   },
   {
     id: nanoid(),

@@ -93,4 +93,14 @@ export const skills = [
     title: "GitHub",
     icon: "/assets/icons/github-logo-80.png",
   },
+  {
+    id: nanoid(),
+    title: "PWA",
+    icon: "https://tse2.mm.bing.net/th?id=OIP.tGTkLIsRNsHMspjL5LLXFQHaHa&pid=Api&P=0&h=220",
+  },
+  {
+    id: nanoid(),
+    title: "Stripe",
+    icon: "https://tse4.mm.bing.net/th?id=OIP.gIg2HcvUwgtQ5EotjcAf3gHaEx&pid=Api&P=0&h=220",
+  },
 ];
